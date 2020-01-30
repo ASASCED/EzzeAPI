@@ -11,6 +11,17 @@ async function getAllAppointments() {
     }
 }
 
+async function getAppointmentsLimitOffset(idLogin, offset, limit) {
+    try {
+        const res = await axios.get(
+            `${url}Appointments?idLogin=${idLogin}&offset=${offset}&limit=${limit}`
+        )
+        return res.data
+    } catch (error) {
+        throw error
+    }
+}
+
 async function getOfficeAppintments(idoffice) {
     try {
         const res = await axios.get(
@@ -55,4 +66,5 @@ module.exports = {
     postAppointment,
     putAppointment,
     getInfoQuote,
+    getAppointmentsLimitOffset,
 }
