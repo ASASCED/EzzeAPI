@@ -1,14 +1,14 @@
 {
-  "name": "ezeeapi",
+  "name": "ezzeapi",
   "version": "0.0.1",
-  "description": "Module to manage the EzeeAPI",
-  "main": "index.js",
+  "description": "Module to manage the EzzeAPI",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ASASCED/EzeeAPI.git"
+    "url": "git+https://github.com/ASASCED/EzzeAPI.git"
   },
   "keywords": [
     "api"
@@ -16,9 +16,9 @@
   "author": "Jesus Jimenez Cordero",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ASASCED/EzeeAPI/issues"
+    "url": "https://github.com/ASASCED/EzzeAPI/issues"
   },
-  "homepage": "https://github.com/ASASCED/EzeeAPI#readme",
+  "homepage": "https://github.com/ASASCED/EzzeAPI#readme",
   "dependencies": {
     "axios": "^0.19.2"
   }
